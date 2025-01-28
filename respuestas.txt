@@ -1,0 +1,9 @@
+grep -i juan datos.txt
+cat datos.txt | grep -i juan | awk -F',' '{print }'
+grep -l prog datos.txt | wc -l
+grep -w PROG datos.txy | wc -l
+grep -w es datos.txt | awk -F',' '{print }' | awk '{print }'
+sed 's/.com/.net/g' datos.txt
+grep -w SI datos.txt | wc -l
+no se el 8
+ejercicio 9 no se hacerlo
